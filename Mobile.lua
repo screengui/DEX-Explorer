@@ -37,7 +37,7 @@ local ENABLED_REMARKS = {
   INLINE_REMARK = true
 }
 
-local DECOMPILER_TIMEOUT = 10
+local DECOMPILER_TIMEOUT = nil
 
 local READER_FLOAT_PRECISION = 7 -- up to 99
 local SHOW_INSTRUCTION_LINES = false
